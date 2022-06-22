@@ -57,6 +57,9 @@ git status
 
 Digite o comando abaixo no prompt de comando ou no Powershell para configurar o repositório remoto do GitHub.
 
+Digite o comando "cd" para posicionar no diretório dos arquivos a serem enviados ao repositório remoto do GitHub.
+cd C:\Users\OLE22590\source\repos\Git-GitHub
+
 git remote add origin https://github.com/wanderson-costa/Tutorial-Git-GutHub.git
 
 **********----------**********----------**********----------**********----------**********----------**********----------**********
