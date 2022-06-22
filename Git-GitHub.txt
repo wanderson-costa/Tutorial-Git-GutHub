@@ -1,0 +1,52 @@
+Git para Windows
+Digite o comando abaixo no prompt de comando ou no Powershell para instalar ou atualizar.
+
+Instalar: winget install --id Git.Git -e --source winget
+Atualizar: winget upgrade --id Git.Git -e --source winget
+
+Digite o comando abaixo no prompt de comando ou no Powershell para verificar a instalação.
+git --version
+
+**********----------**********----------**********----------**********----------**********----------**********----------**********
+
+GitHub CLI para Windows
+Digite o comando abaixo no prompt de comando ou no Powershell para instalar ou atualizar.
+
+Instalar: winget install --id GitHub.cli
+Atualizar: winget upgrade --id GitHub.cli
+
+Digite o comando abaixo no prompt de comando ou no Powershell para verificar a instalação.
+gh --version
+
+**********----------**********----------**********----------**********----------**********----------**********----------**********
+
+Digite o comando abaixo no prompt de comando ou no Powershell para autenticar o Git com as credenciais do GitHub.
+
+gh auth login
+
+ What account do you want to log into?
+   >GitHub.com
+ What is your preferred protocol for Git operations?
+   >HTTPS
+ Authenticate Git with your GitHub credentials?
+   >Y
+ How would you like to authenticate GitHub CLI?
+   > Login with a web browser
+ 
+**********----------**********----------**********----------**********----------**********----------**********----------**********
+
+Digite o comando abaixo no prompt de comando ou no Powershell para configurar o Git com as informações globais.
+
+git config --global init.defaultBranch main
+
+git config --global user.name "Wanderson Costa"
+git config --global user.email "msn.wanderson@hotmail.com"
+
+**********----------**********----------**********----------**********----------**********----------**********----------**********
+
+Digite o comando abaixo no prompt de comando ou no Powershell para clonar um projeto.
+
+Digite o diretório para onde o projeto será copiado.
+cd C:\Users\OLE22590\source\repos
+
+git clone https://github.com/wanderson-costa/maverick.git
