@@ -70,6 +70,7 @@ Digite o comando "cd" para posicionar no diretório dos arquivos a serem adicion
 cd C:\Users\OLE22590\source\repos\Git-GitHub
 
 git add --all
+git status
 
 **********----------**********----------**********----------**********----------**********----------**********----------**********
 
@@ -79,12 +80,14 @@ Digite o comando "cd" para posicionar no diretório a ser armazenado.
 cd C:\Users\OLE22590\source\repos\Git-GitHub
 
 git commit -m "Tutorial comandos Git-GutHub"
+git status
 
 **********----------**********----------**********----------**********----------**********----------**********----------**********
 
 Digite o comando abaixo no prompt de comando ou no Powershell para enviar os arquivos ao repositório remoto do GitHub.
 
 git push -u origin main
+git status
 
 **********----------**********----------**********----------**********----------**********----------**********----------**********
 
