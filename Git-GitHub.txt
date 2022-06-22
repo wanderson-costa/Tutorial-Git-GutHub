@@ -61,7 +61,7 @@ git remote add origin https://github.com/wanderson-costa/Tutorial-Git-GutHub.git
 
 **********----------**********----------**********----------**********----------**********----------**********----------**********
 
-Digite o comando abaixo no prompt de comando ou no Powershell para adicionar os arquivos ao controle do Git.
+Digite o comando abaixo no prompt de comando ou no Powershell para adicionar os dados alterados ao controle do Git.
 
 Digite o comando "cd" para posicionar no diretório dos arquivos a serem adicionados.
 cd C:\Users\OLE22590\source\repos\Git-GitHub
@@ -70,7 +70,7 @@ git add --all
 
 **********----------**********----------**********----------**********----------**********----------**********----------**********
 
-Digite o comando abaixo no prompt de comando ou no Powershell para armazenar os arquivos alterados ao controle do Git.
+Digite o comando abaixo no prompt de comando ou no Powershell para gravar os dados alterados ao controle do Git.
 
 Digite o comando "cd" para posicionar no diretório a ser armazenado.
 cd C:\Users\OLE22590\source\repos\Git-GitHub
