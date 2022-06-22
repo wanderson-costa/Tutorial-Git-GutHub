@@ -1,5 +1,5 @@
 Git para Windows
-Digite o comando abaixo no prompt de comando ou no Powershell para instalar ou atualizar.
+Digite o comando abaixo no prompt de comando ou no Powershell para instalar o Git.
 
 Instalar: winget install --id Git.Git -e --source winget
 Atualizar: winget upgrade --id Git.Git -e --source winget
@@ -10,7 +10,7 @@ git --version
 **********----------**********----------**********----------**********----------**********----------**********----------**********
 
 GitHub CLI para Windows
-Digite o comando abaixo no prompt de comando ou no Powershell para instalar ou atualizar.
+Digite o comando abaixo no prompt de comando ou no Powershell para instalar o GitHub.
 
 Instalar: winget install --id GitHub.cli
 Atualizar: winget upgrade --id GitHub.cli
@@ -24,22 +24,22 @@ Digite o comando abaixo no prompt de comando ou no Powershell para autenticar o 
 
 gh auth login
 
- What account do you want to log into?
+What account do you want to log into?
    >GitHub.com
- What is your preferred protocol for Git operations?
+What is your preferred protocol for Git operations?
    >HTTPS
- Authenticate Git with your GitHub credentials?
+Authenticate Git with your GitHub credentials?
    >Y
- How would you like to authenticate GitHub CLI?
+How would you like to authenticate GitHub CLI?
    > Login with a web browser
+   
+Siga o restante das instruções...
  
 **********----------**********----------**********----------**********----------**********----------**********----------**********
 
-Digite o comando abaixo no prompt de comando ou no Powershell para configurar o Git com as informações globais.
+Digite o comando abaixo no prompt de comando ou no Powershell para configurar as informações globais do Git.
 
 git config --global init.defaultBranch main
-
-Digite os comandos abaixo para configurar o usuário e e-mail.
 git config --global user.name "Wanderson Costa"
 git config --global user.email "msn.wanderson@hotmail.com"
 
@@ -57,16 +57,16 @@ git status
 
 Digite o comando abaixo no prompt de comando ou no Powershell para configurar o repositório remoto do GitHub.
 
-Digite o comando "cd" para posicionar no diretório dos arquivos a serem enviados ao repositório remoto do GitHub.
+Digite o comando "cd" para posicionar no diretório a ser sincronizado.
 cd C:\Users\OLE22590\source\repos\Git-GitHub
 
 git remote add origin https://github.com/wanderson-costa/Tutorial-Git-GutHub.git
 
 **********----------**********----------**********----------**********----------**********----------**********----------**********
 
-Digite o comando abaixo no prompt de comando ou no Powershell para adicionar os dados alterados ao controle do Git.
+Digite o comando abaixo no prompt de comando ou no Powershell para adicionar o conteúdo atual ao controle do Git.
 
-Digite o comando "cd" para posicionar no diretório dos arquivos a serem adicionados.
+Digite o comando "cd" para posicionar no diretório do conteúdo atual.
 cd C:\Users\OLE22590\source\repos\Git-GitHub
 
 git add --all
@@ -74,9 +74,9 @@ git status
 
 **********----------**********----------**********----------**********----------**********----------**********----------**********
 
-Digite o comando abaixo no prompt de comando ou no Powershell para gravar os dados alterados ao controle do Git.
+Digite o comando abaixo no prompt de comando ou no Powershell para gravar o conteúdo atual ao controle do Git.
 
-Digite o comando "cd" para posicionar no diretório a ser armazenado.
+Digite o comando "cd" para posicionar no diretório do conteúdo atual.
 cd C:\Users\OLE22590\source\repos\Git-GitHub
 
 git commit -m "Tutorial comandos Git-GutHub"
@@ -84,16 +84,16 @@ git status
 
 **********----------**********----------**********----------**********----------**********----------**********----------**********
 
-Digite o comando abaixo no prompt de comando ou no Powershell para enviar os arquivos ao repositório remoto do GitHub.
+Digite o comando abaixo no prompt de comando ou no Powershell para enviar o conteúdo atual ao repositório remoto do GitHub.
 
 git push -u origin main
 git status
 
 **********----------**********----------**********----------**********----------**********----------**********----------**********
 
-Digite o comando abaixo no prompt de comando ou no Powershell para clonar um projeto.
+Digite o comando abaixo no prompt de comando ou no Powershell para clonar um repositório remoto do GitHub.
 
-Digite o comando "cd" para posicionar no diretório onde o projeto será copiado.
+Digite o comando "cd" para posicionar no diretório do conteúdo atual.
 cd C:\Users\OLE22590\source\repos
 
 git clone https://github.com/wanderson-costa/maverick.git
