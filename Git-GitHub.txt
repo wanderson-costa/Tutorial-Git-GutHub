@@ -1,3 +1,8 @@
+https://fabiostefani.medium.com/integrando-o-windows-terminal-com-o-git-utilizando-posh-git-e-oh-my-posh-6f25f7b7ae1
+https://balta.io/blog/windows-terminal
+
+************************************************************************************************************************
+
 Git para Windows
 Digite o comando abaixo no prompt de comando ou no Powershell para instalar o Git.
 
@@ -86,7 +91,20 @@ git status
 
 Digite o comando abaixo no prompt de comando ou no Powershell para enviar o conteúdo atual ao repositório remoto do GitHub.
 
+Digite o comando "cd" para posicionar no diretório do conteúdo atual.
+cd C:\Users\OLE22590\source\repos\Git-GitHub
+
 git push -u origin main
+git status
+
+************************************************************************************************************************
+
+Digite o comando abaixo no prompt de comando ou no Powershell para baixar o conteúdo atual do repositório remoto do GitHub.
+
+Digite o comando "cd" para posicionar no diretório do conteúdo atual.
+cd C:\Users\OLE22590\source\repos\Git-GitHub
+
+git pull
 git status
 
 ************************************************************************************************************************
