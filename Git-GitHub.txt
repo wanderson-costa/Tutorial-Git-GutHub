@@ -116,3 +116,21 @@ cd C:\Users\OLE22590\source\repos\Git-GitHub
 
 git clone https://github.com/wanderson-costa/Tutorial-Git-GutHub.git
 
+************************************************************************************************************************
+
+Digite o comando abaixo no prompt de comando ou no Powershell para criar um ramo do repositório remoto do GitHub.
+
+Digite o comando "cd" para posicionar no diretório do conteúdo atual.
+cd C:\Users\OLE22590\source\repos\Git-GitHub
+
+git checkout -b develop
+git status
+
+git add --all
+git status
+
+git commit -m "Tutorial comandos Git-GutHub"
+git status
+
+git push -u origin develop
+git status
