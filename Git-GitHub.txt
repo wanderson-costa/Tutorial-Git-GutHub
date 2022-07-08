@@ -1,6 +1,3 @@
-https://fabiostefani.medium.com/integrando-o-windows-terminal-com-o-git-utilizando-posh-git-e-oh-my-posh-6f25f7b7ae1
-https://balta.io/blog/windows-terminal
-
 ************************************************************************************************************************
 
 Git para Windows
@@ -15,7 +12,7 @@ git --version
 ************************************************************************************************************************
 
 GitHub CLI para Windows
-Digite o comando abaixo no prompt de comando ou no Powershell para instalar o GitHub.
+Digite o comando abaixo no prompt de comando ou no Powershell para instalar o GitHub CLI.
 
 Instalar: winget install --id GitHub.cli
 Atualizar: winget upgrade --id GitHub.cli
@@ -50,7 +47,7 @@ git config --global user.email "msn.wanderson@hotmail.com"
 
 ************************************************************************************************************************
 
-Digite o comando abaixo no prompt de comando ou no Powershell para inicializar um diretório do Git.
+Digite o comando abaixo no prompt de comando ou no Powershell para inicializar um diretório local do Git.
 
 Digite o comando "cd" para posicionar no diretório a ser inicializado.
 cd C:\Users\OLE22590\source\repos\Git-GitHub
@@ -60,7 +57,7 @@ git status
 
 ************************************************************************************************************************
 
-Digite o comando abaixo no prompt de comando ou no Powershell para atrelar um diretório ao repositório remoto do GitHub.
+Digite o comando abaixo no prompt de comando ou no Powershell para associar um diretório local ao repositório remoto do GitHub.
 
 Digite o comando "cd" para posicionar no diretório a ser sincronizado.
 cd C:\Users\OLE22590\source\repos\Git-GitHub
@@ -89,7 +86,7 @@ git status
 
 ************************************************************************************************************************
 
-Digite o comando abaixo no prompt de comando ou no Powershell para enviar o conteúdo atual ao repositório remoto do GitHub.
+Digite o comando abaixo no prompt de comando ou no Powershell para enviar o conteúdo do diretório local ao repositório remoto do GitHub.
 
 Digite o comando "cd" para posicionar no diretório do conteúdo atual.
 cd C:\Users\OLE22590\source\repos\Git-GitHub
@@ -99,7 +96,7 @@ git status
 
 ************************************************************************************************************************
 
-Digite o comando abaixo no prompt de comando ou no Powershell para baixar o conteúdo atual do repositório remoto do GitHub.
+Digite o comando abaixo no prompt de comando ou no Powershell para baixar o conteúdo do repositório remoto do GitHub.
 
 Digite o comando "cd" para posicionar no diretório do conteúdo atual.
 cd C:\Users\OLE22590\source\repos\Git-GitHub
@@ -137,7 +134,7 @@ git status
 
 ************************************************************************************************************************
 
-Digite o comando abaixo no prompt de comando ou no Powershell para trocar de ramo no diretório atual do Git.
+Digite o comando abaixo no prompt de comando ou no Powershell para trocar de ramo no diretório local do Git.
 
 Digite o comando "cd" para posicionar no diretório do conteúdo atual.
 cd C:\Users\OLE22590\source\repos\Git-GitHub
